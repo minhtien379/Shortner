@@ -1,0 +1,167 @@
+<?php
+$url = isset($_GET['url']) ? $_GET['url'] : null;
+
+?>
+
+
+<?php 
+if ($url == null){
+$link = 'http://apkvips.com/';
+}else{
+$link = 'https://apkvips.com/post.php?id='.$url;
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ProFile Admin</title>
+
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <meta name="keywords" content="url , profile , website ,yotube. apkvips">
+    <meta name="description" content="ProFile Admin">
+    <meta name="author" content="ApkVips">
+    <meta name="copyright" content="ApkVips">
+    <meta name="generator" content="ApkVips">
+    <meta name="robots" content="index, follow">
+
+
+    
+
+    <meta itemprop="name" content="ProFile Admin">
+    <meta itemprop="description" content="ProFile Admin.">
+
+
+    <link href="https://cdnjs.cloudflare.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://ajax.googleapis.com" rel="preconnect" crossorigin>
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link href="https://ssl.google-analytics.com" rel="preconnect" crossorigin>
+    <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+    <link href="https://cdnjs.cloudflare.com" rel="dns-prefetch">
+    <link href="https://fonts.googleapis.com" rel="dns-prefetch">
+    <link href="https://fonts.gstatic.com" rel="dns-prefetch">
+    <link href="https://ajax.googleapis.com" rel="dns-prefetch">
+    <link href="https://www.google-analytics.com" rel="dns-prefetch">
+    <link href="https://ssl.google-analytics.com" rel="dns-prefetch">
+    <link href="https://www.googletagmanager.com" rel="dns-prefetch">
+
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+ 
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!-- Landing CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!------Font Awesome---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        </head>
+<body>
+<!-- ========== HEADER ========== -->
+<header id="header" class="header header-box-shadow-on-scroll header-white-bg-on-scroll header-sticky-top-lg header-bg-transparent-lg"
+        data-hs-header-options='{
+            "fixMoment": 1000,
+            "fixEffect": "slide"
+          }'>
+    <div class="header-section">
+        <div id="logoAndNav" class="container">
+            <!-- Nav -->
+          
+                <!-- Logo --><center>
+                <a class="logo-name" href="#" aria-label="Front">Shortener
+                    </a></center>
+                <!-- End Logo -->
+
+                
+        </div>
+    </div>
+</header>
+
+
+
+
+<!-- ========== END HEADER ========== -->
+
+<!-- ========== MAIN CONTENT ========== -->
+<main id="content" role="main">
+        <!-- Hero Section -->
+    <div class="gradient-y-sm-primary position-relative z-index-2 overflow-hidden">
+        <div class="container space-top-2 space-top-lg-4 position-relative">
+            <!-- Title -->
+            <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+                <h1 class="display-4 mb-3">URL Shortener</h1>
+                
+            </div>
+            <!-- End Title -->
+
+            <!-- Slick Carousel -->
+            
+                
+<div class="container space-bottom-3">
+        <div class="w-md-75 w-lg-50 mx-md-auto">
+            
+            <div id="result" style="display: block;">
+                
+                <button  onclick=window.location.href='<?php echo $link?>' class="btn btn-primary btn-block" id="target-link" target="_blank" rel="noopener noreferrer nofollow">Nhấn vào đây để tiếp tục!</button>
+                <button class="btn btn-outline-secondary btn-block" onclick=window.location.href='https://www.facebook.com/ApkVipsTeam' return false;><i class="fab fa-facebook-square"></i> Facebook</button>
+                <button class="btn btn-outline-secondary btn-block" onclick=window.location.href='https://www.facebook.com/ApkVipsTeam' return false;><i class="fab fa-youtube"></i> Youtube</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+            <!-- SVG Shapes -->
+            <figure class="position-absolute z-index-n1" style="top: -35rem; left: 50rem; width: 62rem; height: 62rem;">
+                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 260 260">
+                    <circle fill="#e7eaf3" opacity=".7" cx="130" cy="130" r="130"/>
+                </svg>
+            </figure>
+            <figure class="position-absolute z-index-n1" style="top: 15rem; left: 70rem; width: 20rem; height: 20rem;">
+                <img class="img-fluid" src="image/circled-stripe.svg" alt="juno_okyo" loading="lazy" width="320" height="320">
+            </figure>
+            <figure class="position-absolute z-index-n1" style="bottom: 7rem; left: -3rem; width: 15rem; height: 15rem;">
+                <img class="img-fluid" src="image/dots-3.svg" alt="juno_okyo" loading="lazy" width="240" height="240">
+            </figure>
+            <!-- End SVG Shapes -->
+        </div>
+
+        <!-- SVG Bottom Shape -->
+        <figure class="position-absolute right-0 bottom-0 left-0">
+            <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1921 273">
+                <polygon fill="#fff" points="0,273 1921,273 1921,0 "/>
+            </svg>
+        </figure>
+        <!-- End SVG Bottom Shape -->
+    </div>
+    <!-- End Hero Section -->
+
+
+<!-- ========== END FOOTER ========== -->
+
+
+
+<!-- JS Global Compulsory -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.0/jquery-migrate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS Front -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+<script src="js/landing.js"></script>
+
+
+    
+
+</body>
+</html>
