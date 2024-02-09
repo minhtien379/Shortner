@@ -85,8 +85,12 @@
             </div>
         </div>
     </div>
-<script>function generate(){
-    window.location.href = "https://fureapk.com";
+<script>
+    function generate(){
+    var baseUrl = (window.location).href; // You can also use document.URL
+    var url = baseUrl.substring(baseUrl.lastIndexOf('=') + 1);
+    window.location.href = "https://fureapk.com/post.php?url=" + url;
+
 }</script>
             <!-- SVG Shapes -->
             <figure class="position-absolute z-index-n1" style="top: -35rem; left: 50rem; width: 62rem; height: 62rem;">
