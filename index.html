@@ -89,7 +89,8 @@
 <script>
     function generate(){
     var baseUrl = (window.location).href; // You can also use document.URL
-    var url = baseUrl.substring(baseUrl.lastIndexOf('=') + 1);
+    var check = baseUrl.split("&", 1); 
+    var url = check.substring(check.lastIndexOf('=') + 1);
     window.location.href = "https://gamemod24h.com/" + url;
 
 }</script>
