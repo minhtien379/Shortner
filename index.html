@@ -87,12 +87,19 @@
         </div>
     </div>
 <script>
-    function generate(){
-	    const queryString = window.location.search;
-	    const urlParams = new URLSearchParams(queryString);
-	    const url= urlParams.get('url')
-        window.location.href = "https://gamemod24h.com/" + url;
-    }
+function generate(){
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	const url= urlParams.get('url')
+	const home = urlParams.get('home')
+    	var linkurl = "https://gamemod24h.com/" + url;
+	var linkhome = "https://gamemod24h.com/";
+	if(url == null){
+		window.location.href = linkhome;
+	}else{
+		window.location.href = linkurl;
+	}
+}
 </script>
         <!-- SVG Shapes -->
             <figure class="position-absolute z-index-n1" style="top: -35rem; left: 50rem; width: 62rem; height: 62rem;">
