@@ -90,7 +90,8 @@
     function generate(){
     var baseUrl = (window.location).search; // You can also use document.URL
     const urlParams = new URLSearchParams(baseUrl);
-    const url = urlParams.get('url')    
+    const url = urlParams.get('url');
+    console.log(product);
    window.location.href = "https://gamemod24h.com/" + url;
     }
 </script>
